@@ -2,7 +2,7 @@ import random
 import streamlit as st
 
 # Set up the game
-st.title("Guess the Number Game!")
+st.title("Guess the Number Gameessss")
 st.write("I'm thinking of a number between 1 and 100. Can you guess it?")
 
 # Initialize or reset the game
@@ -26,4 +26,5 @@ if guess_button:
         reset_button = st.button("Play Again")
         if reset_button:
             st.session_state.target_number = random.randint(1, 100)
+
             st.session_state.attempts = 0
